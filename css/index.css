@@ -141,6 +141,10 @@ header nav div.logo {
   font-family: 'Alegreya Sans SC', sans-serif;
   font-size: 2.5em;
 }
+header nav div.logo a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
 header nav div.logo span {
   color: #FFB612;
 }
@@ -158,4 +162,8 @@ header nav div.links a {
 }
 header nav div.links a:hover {
   color: #FFB612;
+  text-decoration: underline;
+}
+.intro {
+  height: 100vh;
 }
