@@ -130,8 +130,32 @@ header nav {
   border: 1px solid black;
   display: flex;
   justify-content: space-between;
-  height: 150px;
+  height: 100px;
+  background-color: #050505;
+}
+header nav div.logo {
+  color: white;
+  display: flex;
+  align-items: center;
+  margin: 50px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 2.5em;
+}
+header nav div.logo span {
+  color: #FFB612;
 }
 header nav div.links {
-  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: flex-end;
+}
+header nav div.links a {
+  margin-right: 20px;
+  font-family: 'Rajdhani', sans-serif;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+}
+header nav div.links a:hover {
+  color: #FFB612;
 }
