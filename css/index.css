@@ -165,9 +165,35 @@ header nav div.links a:hover {
   color: #FFB612;
   text-decoration: underline;
 }
+.intro {
+  height: 100vh;
+}
 .intro .box {
-  margin: 0 auto;
-  height: 446px;
-  width: 303px;
-  border: 1px solid black;
+  margin: 10% auto;
+  height: 470px;
+  width: 800px;
+  border: 3px solid black;
+}
+.intro .box h1 {
+  font-family: Rajdhani;
+  text-align: center;
+  margin: 2% 0 1% ;
+  font-size: 4rem;
+}
+.intro .box hr {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 2%;
+  border-style: solid;
+  border-color: #8c8b8b;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
+.intro .box p {
+  margin: 0 2%;
+  font-size: 2em;
 }
