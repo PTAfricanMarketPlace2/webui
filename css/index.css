@@ -208,3 +208,6 @@ header nav div.links a:hover {
   letter-spacing: 2px;
   font-weight: 700;
 }
+.middle {
+  margin: 0;
+}
