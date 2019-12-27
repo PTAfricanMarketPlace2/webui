@@ -130,8 +130,7 @@ header nav {
   border: 1px solid black;
   display: flex;
   justify-content: space-between;
-  height: 100px;
-  background-color: #1D1013;
+  background-color: #070002;
 }
 header nav div.logo {
   color: white;
@@ -148,6 +147,10 @@ header nav div.logo a {
 header nav div.logo span {
   color: #FFB612;
 }
+header nav div.logo img {
+  height: 50px;
+  width: 50px;
+}
 header nav div.links {
   margin: 1%;
   display: flex;
@@ -163,37 +166,45 @@ header nav div.links a {
 }
 header nav div.links a:hover {
   color: #FFB612;
-  text-decoration: underline;
+  text-decoration: underline overline;
 }
 .intro {
-  height: 100vh;
+  height: 85vh;
+  background-image: url("/images/africanMarket.jpg");
+  background-size: cover;
+  margin: 0;
 }
 .intro .box {
-  margin: 10% auto;
   height: 470px;
-  width: 800px;
-  border: 3px solid black;
+  width: 1000px;
+  border: 1px solid black;
+  background-color: #070002;
+  opacity: 0.9;
 }
-.intro .box h1 {
+.intro .box h2 {
   font-family: Rajdhani;
   text-align: center;
   margin: 2% 0 1% ;
   font-size: 4rem;
+  color: #fff;
+  letter-spacing: 3px;
+  font-weight: 900;
 }
 .intro .box hr {
+  color: #FFB612;
   display: block;
   content: "";
   height: 30px;
-  margin-top: -31px;
-  margin-left: 4%;
-  margin-right: 4%;
-  margin-bottom: 2%;
+  margin: -31px, 4%, 2%, 4%;
   border-style: solid;
   border-color: #8c8b8b;
   border-width: 0 0 1px 0;
   border-radius: 20px;
 }
 .intro .box p {
-  margin: 0 2%;
+  margin: 2% 1%;
   font-size: 2em;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 700;
 }
