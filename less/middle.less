@@ -1,6 +1,6 @@
 .middle {
     // line-height: 47px;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
 
     div.mission {
         margin: 0;
@@ -11,30 +11,71 @@
             font-family: 'Rajdhani', sans-serif;
             text-align: center;
             padding: 2%;
-            font-size: 3rem;
+            font-size: 5rem;
             font-weight: 900;
+            letter-spacing: 2px;
+            text-decoration: overline;
         }
 
         p {
-            text-align: center;
+            text-align: start;
             font-family: 'Alegreya Sans SC', sans-serif;
             font-size: 2rem;
             font-weight: 600;
+            margin: 0 10%;
+            letter-spacing: 2px;
         }
     }
 
     .first, .second, .third {
-        margin: 5%;
+        margin: 10% 3%;
         display: flex;
-    }
 
-    .first {
         .image {
+            width: 50%;
             img {
-                height: 600px;
-                width: 700px;
+                vertical-align: top;
+                height: auto;
+                width: 100%;
+                border-radius: 8px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                }           
+            }
+            .target {
+                width: 50%;
+                margin: 0 1% 0 7%;
+
+                h3 {
+            
+                    font-family: 'Raleway', sans-serif;
+                    font-size: 4.5rem;
+                    margin-bottom: 2%;
+                    text-decoration:  underline #FFB612;
+                    letter-spacing: 1px;
+                }
+        
+                p {
+                    font-family: 'Rajdhani', sans-serif;
+                    font-size: 30px;
+                    font-weight: 500;
+                    letter-spacing: 2px;
+                    padding: 1%;
+
+                    &:hover {
+                        background-color: #FFB612;
+                        color: #070002;
+                        font-weight: 800;
+                    }
+                }
             }
             
-        }
     }
+
+    .second {
+        
+        .target {
+            margin: 0 7% 0 1%;
+            vertical-align: top;
+            }
+        }
 }
