@@ -209,5 +209,33 @@ header nav div.links a:hover {
   font-weight: 700;
 }
 .middle {
+  margin-bottom: 2%;
+}
+.middle div.mission {
   margin: 0;
+  height: 30vh;
+  background-color: #FFB612;
+}
+.middle div.mission h2 {
+  font-family: 'Rajdhani', sans-serif;
+  text-align: center;
+  padding: 2%;
+  font-size: 3rem;
+  font-weight: 900;
+}
+.middle div.mission p {
+  text-align: center;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.middle .first,
+.middle .second,
+.middle .third {
+  margin: 5%;
+  display: flex;
+}
+.middle .first .image img {
+  height: 600px;
+  width: 700px;
 }
