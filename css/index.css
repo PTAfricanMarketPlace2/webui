@@ -127,7 +127,6 @@ table {
   border-spacing: 0;
 }
 header nav {
-  border: 1px solid black;
   display: flex;
   justify-content: space-between;
   background-color: #070002;
@@ -170,7 +169,7 @@ header nav div.links a:hover {
 }
 .intro {
   height: 85vh;
-  background-image: url("/images/africanMarket.jpg");
+  background-image: url("/images/africanWomen.jpg");
   background-size: cover;
   min-width: 100%;
 }
@@ -360,45 +359,13 @@ header nav div.links a:hover {
   font-size: 2rem;
   margin: 0 2%;
 }
-.footer div {
+.footer div.bttm {
   border: 1px solid black;
   display: flex;
   justify-content: space-between;
   background-color: #070002;
 }
-.footer div div.logo {
-  color: white;
-  display: flex;
-  align-items: center;
-  margin: 1%;
-  font-family: 'Alegreya Sans SC', sans-serif;
-  font-size: 2.5em;
-}
-.footer div div.logo a {
-  text-decoration: none;
-  color: #FFFFFF;
-}
-.footer div div.logo span {
-  color: #FFB612;
-}
-.footer div div.logo img {
+.footer div.bttm img {
   height: 50px;
   width: 50px;
-}
-.footer div div.links {
-  margin: 1%;
-  display: flex;
-  align-items: flex-end;
-  width: 350px;
-}
-.footer div div.links a {
-  margin-right: 5%;
-  font-family: 'Rajdhani', sans-serif;
-  text-decoration: none;
-  font-size: 1.5rem;
-  color: #FFFFFF;
-}
-.footer div div.links a:hover {
-  color: #FFB612;
-  text-decoration: underline overline;
 }
