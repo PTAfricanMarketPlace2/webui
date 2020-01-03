@@ -166,11 +166,22 @@ header nav div.links a:hover {
   color: #FFB612;
   text-decoration: underline overline;
 }
+@media (max-width: 500px) {
+  header nav {
+    width: 100vw;
+  }
+  header nav .logo h1 {
+    font-size: 20px;
+  }
+  header nav .links a {
+    font-size: 7px;
+  }
+}
 .intro {
   height: 90vh;
   background-image: url("/images/africanWomanPhone.jpg");
   background-size: cover;
-  min-width: 100%;
+  width: 100vw;
 }
 .intro .box {
   margin: 150px auto;
@@ -227,6 +238,26 @@ header nav div.links a:hover {
 .intro .box hr {
   border-top: 1px solid #8c8b8b;
   margin: 0;
+}
+@media (max-width: 500px) {
+  .intro .box {
+    width: 350px;
+    height: min-content;
+  }
+  .intro .box h2 {
+    font-size: 15px;
+  }
+  .intro .box p {
+    font-size: 10px;
+  }
+  .intro .box .myButton {
+    height: 39px;
+    width: 75px;
+    padding: 0;
+  }
+  .intro .box .myButton a {
+    font-size: 10px;
+  }
 }
 .middle {
   margin-bottom: 5%;
@@ -325,6 +356,36 @@ header nav div.links a:hover {
 .middle .second .target {
   margin: 0 7% 0 1%;
   vertical-align: top;
+}
+@media (max-width: 500px) {
+  section.middle .mission {
+    padding-top: 20px;
+  }
+  section.middle .mission h2 {
+    font-size: 30px;
+  }
+  section.middle .mission p {
+    font-size: 15px;
+  }
+  section.middle .first,
+  section.middle .second,
+  section.middle .third {
+    display: flex;
+    flex-direction: column;
+  }
+  section.middle .first .image,
+  section.middle .second .image,
+  section.middle .third .image {
+    margin: 0;
+    height: 400px;
+    width: 100vw;
+  }
+  section.middle .first .target,
+  section.middle .second .target,
+  section.middle .third .target {
+    width: 100vw;
+    margin: 0;
+  }
 }
 .last {
   background-color: #007A4D;

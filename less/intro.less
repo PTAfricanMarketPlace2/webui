@@ -2,7 +2,7 @@
     height: 90vh;
     background-image: url("/images/africanWomanPhone.jpg");
     background-size: cover;
-    min-width: 100%;
+    width: 100vw;
     
     
     .box {
@@ -66,6 +66,31 @@
         hr {
             border-top: 1px solid #8c8b8b;
             margin: 0; 
+        }
+    }
+}
+
+@media(max-width: 500px) {
+    .intro {
+        .box {
+            width: 350px;
+            height: min-content;
+            
+            h2 {
+                font-size: 15px;
+            }
+            p {
+                font-size: 10px;
+            }
+            .myButton {
+                height: 39px;
+                width: 75px;
+                padding: 0;
+
+                a {
+                    font-size: 10px;
+                }
+            }
         }
     }
 }

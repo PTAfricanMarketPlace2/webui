@@ -97,3 +97,32 @@
             }
         }
 }
+
+@media(max-width: 500px) {
+    section.middle {
+        .mission {
+            padding-top: 20px;
+            h2 {
+                font-size: 30px;
+            }
+            p {
+                font-size: 15px;
+            }
+        }
+
+        .first, .second, .third {
+            display: flex;
+            flex-direction: column;
+            .image {
+                margin: 0;
+                height: 400px;
+                width: 100vw;
+            }
+            .target {
+                width: 100vw;
+                margin: 0;
+            }
+        }
+        
+    }
+}
