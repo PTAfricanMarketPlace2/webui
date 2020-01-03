@@ -137,7 +137,7 @@ header nav div.logo {
   align-items: center;
   margin: 1%;
   font-family: 'Alegreya Sans SC', sans-serif;
-  font-size: 2.5em;
+  font-size: 2em;
 }
 header nav div.logo a {
   text-decoration: none;
@@ -151,16 +151,15 @@ header nav div.logo img {
   width: 50px;
 }
 header nav div.links {
-  margin: 1%;
+  margin: 0 1% 1%;
   display: flex;
   align-items: flex-end;
-  width: 350px;
 }
 header nav div.links a {
-  margin-right: 5%;
+  margin-right: 10px;
   font-family: 'Rajdhani', sans-serif;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: #FFFFFF;
 }
 header nav div.links a:hover {
@@ -169,17 +168,36 @@ header nav div.links a:hover {
 }
 .intro {
   height: 90vh;
-  background-image: url("/images/africanWomen.jpg");
+  background-image: url("/images/africanWomanPhone.jpg");
   background-size: cover;
   min-width: 100%;
 }
 .intro .box {
-  margin: 250px auto;
+  margin: 150px auto;
   height: min-content;
-  width: 1000px;
+  width: 800px;
   border: 1px solid black;
   background-color: #070002;
   opacity: 0.9;
+}
+.intro .box a {
+  color: #070002;
+}
+.intro .box h2 {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  text-align: center;
+  margin: 2% 0 1% ;
+  font-size: 2.5rem;
+  color: #fff;
+  letter-spacing: 3px;
+  font-weight: 900;
+}
+.intro .box p {
+  margin: 2% 1%;
+  font-size: 1.5rem;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 700;
 }
 .intro .box .myButton {
   box-shadow: 0px 1px 0px 0px #fff6af;
@@ -193,9 +211,10 @@ header nav div.links a:hover {
   font-family: Arial;
   font-size: 15px;
   font-weight: bold;
-  padding: 6px 24px;
+  padding: 6px;
   text-decoration: none;
   text-shadow: 0px 1px 0px #ffee66;
+  margin: 1% 40% 3%;
 }
 .intro .box .myButton:hover {
   background: linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
@@ -205,28 +224,9 @@ header nav div.links a:hover {
   position: relative;
   top: 1px;
 }
-.intro .box a {
-  color: #070002;
-}
-.intro .box h2 {
-  font-family: Rajdhani;
-  text-align: center;
-  margin: 2% 0 1% ;
-  font-size: 4rem;
-  color: #fff;
-  letter-spacing: 3px;
-  font-weight: 900;
-}
 .intro .box hr {
   border-top: 1px solid #8c8b8b;
-  margin: 0 %;
-}
-.intro .box p {
-  margin: 2% 1%;
-  font-size: 2em;
-  color: #fff;
-  letter-spacing: 2px;
-  font-weight: 700;
+  margin: 0;
 }
 .middle {
   margin-bottom: 5%;
@@ -245,7 +245,7 @@ header nav div.links a:hover {
   font-family: 'Rajdhani', sans-serif;
   text-align: center;
   padding: 2%;
-  font-size: 5rem;
+  font-size: 3rem;
   font-weight: 900;
   letter-spacing: 2px;
   text-decoration: overline;
@@ -253,7 +253,7 @@ header nav div.links a:hover {
 .middle div.mission p {
   text-align: start;
   font-family: 'Alegreya Sans SC', sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 600;
   color: #070002;
   height: min-content;
@@ -289,14 +289,16 @@ header nav div.links a:hover {
   border-radius: 8px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 35, 149, 0.19);
   height: min-content;
+  background-color: #F4F0DB;
+  opacity: 10;
 }
 .middle .first .target h3,
 .middle .second .target h3,
 .middle .third .target h3 {
   font-family: 'Raleway', sans-serif;
-  font-size: 4.5rem;
+  font-size: 3rem;
   margin-bottom: 2%;
-  text-decoration: underline #002395;
+  text-decoration: underline #FFB612;
   letter-spacing: 1px;
   padding: 2%;
 }
@@ -304,8 +306,8 @@ header nav div.links a:hover {
 .middle .second .target p,
 .middle .third .target p {
   font-family: 'Rajdhani', sans-serif;
-  font-size: 30px;
-  font-weight: 500;
+  font-size: 1.3rem;
+  font-weight: 700;
   letter-spacing: 2px;
   padding: 1%;
 }
@@ -325,16 +327,18 @@ header nav div.links a:hover {
   vertical-align: top;
 }
 .last {
-  background-color: #FFB612;
+  background-color: #007A4D;
   height: min-content;
 }
 .last h2 {
-  font-size: 100px;
-  margin: 5% auto;
+  font-size: 3.5rem;
+  margin: 5% auto 3%;
   padding-top: 3%;
   width: max-content;
   color: #070002;
-  font-family: 'Alegreya Sans SC', sans-serif;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 900;
+  text-decoration: overline;
 }
 .last .main {
   display: flex;
@@ -343,7 +347,9 @@ header nav div.links a:hover {
 .last .main .info {
   width: 20%;
   height: min-content;
-  background-color: #FFF;
+  background-color: #F4F0DB;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 35, 149, 0.19);
   margin-bottom: 1%;
 }
 .last .main .info hr {
@@ -360,12 +366,12 @@ header nav div.links a:hover {
   margin: 2% auto 10%;
   text-align: center;
   font-family: 'Raleway', sans-serif;
-  font-size: 2.3rem;
+  font-size: 1.5rem;
 }
 .last .main .info p {
   color: #070002;
   font-family: 'Rajdhani', sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin: 0 2%;
 }
 .footer div.bttm {
@@ -375,18 +381,33 @@ header nav div.links a:hover {
   height: 105px;
   background-color: #070002;
 }
+.footer div.bttm .bottomContent {
+  margin: auto;
+}
 .footer div.bttm img {
   height: 50px;
   width: 50px;
 }
 .footer div.bttm .links a {
-  margin-right: 1%;
   text-decoration: none;
   font-size: 18px;
   color: #FFFFFF;
 }
+.footer div.bttm .links:hover {
+  color: #FFB612;
+  text-decoration: underline overline;
+}
+.footer div.bttm .links span {
+  color: #FFF;
+}
+.footer div.bttm .copyright p {
+  text-decoration: none;
+  font-size: 18px;
+  color: #FFFFFF;
+  font-family: 'Rajdhani', sans-serif;
+}
 .footer div.bttm .social img {
-  height: 50px;
-  width: 50px;
+  height: 25px;
+  width: 25px;
   background-color: lightgray;
 }
