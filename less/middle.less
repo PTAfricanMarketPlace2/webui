@@ -9,7 +9,7 @@
     div.mission {
         margin: 0;
         height: min-content;
-        width: 100vw;
+        width: 100%;
         background-color: #DE3831;
         margin-bottom: 20px;
 
@@ -58,7 +58,7 @@
                 border-radius: 8px;
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 35, 149, 0.19);
                 height: min-content;
-                background-color: #F4F0DB; opacity: 10;
+                background-color: #E3E3E3; opacity: 10;
 
                 h3 {
                     font-family: 'Raleway', sans-serif;
@@ -99,8 +99,10 @@
 
 // **BEGINS INFO FOR MOBILE VIEW
 @media(max-width: 500px) {
+
     section.middle {
         margin: 0;
+        max-width: 500px;
 
         .mission {
             padding-top: 20px;
@@ -118,22 +120,25 @@
             flex-direction: column;
             margin: 0;
             .image {
+                width: 100%;
                 img {
                 margin: 0;
                 height: 350px;
-                width: 500px;
                 border-radius: 0;
                 }
                 
                
             }
             .target {
-                width: 100vw;
+                width: 100%;
                 margin: 0;
                 border-radius: 0;
 
                 h3 {
                     font-size: 30px
+                }
+                p {
+                   padding: 2%; 
                 }
             }
         }

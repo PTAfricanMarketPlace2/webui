@@ -1,27 +1,28 @@
 .footer {
-    width: 100vw;
+    width: 100%;
 
     div.bttm {
         border: 1px solid black;
         display: flex;
         justify-content: space-between;
-        height: 105px;
+        align-items: center;
+        height: 88px;
+        max-width: 100%;
         background-color: rgb(7, 0, 2);
         
         .bottomContent {
-            margin: auto;
+            margin: 0 10px;
         }
 
         img {
-            height: 50px;
-            width: 50px;
+            height: 25px;
+            width: 25px;
         }
 
-        .links {
+        .bttm-link {
             a {
-                
                 text-decoration: none;
-                font-size: 18px;
+                font-size: 1px;
                 color: #FFFFFF;
             }
             &:hover {
@@ -38,17 +39,22 @@
         .copyright {
             p {
                 text-decoration: none;
-                font-size: 18px;
+                font-size: 14px;
                 color: #FFFFFF;
                 font-family: 'Rajdhani', sans-serif;
             }
         }
 
         .social {
+            display: flex;
+            justify-content: space-between;
+            
+            .facebook {
+                margin-left: 10px;
+            }
 
             img {
-                height: 25px;
-                width: 25px;
+                
                 background-color: lightgray;
                 
             }
@@ -64,14 +70,16 @@
     footer {
         .bttm {
             .bottomContent {
-                font-size: 15px;
+                // font-size: 15px;
             }
             .logo {
                 img {
                     height: 20px;
                     width: 20px;
-                }
-                
+                }   
+            }
+            .bttm-link a {
+                // font-size: 2px
             }
         }
     }
