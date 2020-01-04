@@ -130,6 +130,7 @@ header nav {
   display: flex;
   justify-content: space-between;
   background-color: #070002;
+  width: 100vw;
 }
 header nav div.logo {
   color: white;
@@ -167,14 +168,14 @@ header nav div.links a:hover {
   text-decoration: underline overline;
 }
 @media (max-width: 500px) {
-  header nav {
+  nav {
     width: 100vw;
   }
-  header nav .logo h1 {
-    font-size: 20px;
+  nav .logo h1 {
+    font-size: 25px;
   }
-  header nav .links a {
-    font-size: 7px;
+  nav div.links a {
+    font-size: 5px;
   }
 }
 .intro {
@@ -240,9 +241,15 @@ header nav div.links a:hover {
   margin: 0;
 }
 @media (max-width: 500px) {
+  .intro {
+    background-size: cover;
+    height: 300px;
+    width: 500px;
+  }
   .intro .box {
-    width: 350px;
+    width: 250px;
     height: min-content;
+    margin: 20px auto 0;
   }
   .intro .box h2 {
     font-size: 15px;
@@ -269,6 +276,7 @@ header nav div.links a:hover {
 .middle div.mission {
   margin: 0;
   height: min-content;
+  width: 100vw;
   background-color: #DE3831;
   margin-bottom: 20px;
 }
@@ -295,8 +303,9 @@ header nav div.links a:hover {
 .middle .first,
 .middle .second,
 .middle .third {
-  margin: 3% 0;
+  margin: 3% auto;
   display: flex;
+  justify-content: space-around;
 }
 .middle .first .image,
 .middle .second .image,
@@ -315,8 +324,7 @@ header nav div.links a:hover {
 .middle .first .target,
 .middle .second .target,
 .middle .third .target {
-  width: 50%;
-  margin: 0 1% 0 7%;
+  width: 40%;
   border-radius: 8px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 35, 149, 0.19);
   height: min-content;
@@ -327,7 +335,7 @@ header nav div.links a:hover {
 .middle .second .target h3,
 .middle .third .target h3 {
   font-family: 'Raleway', sans-serif;
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-bottom: 2%;
   text-decoration: underline #FFB612;
   letter-spacing: 1px;
@@ -349,17 +357,16 @@ header nav div.links a:hover {
   color: #070002;
   font-weight: 800;
 }
-.middle .first,
-.middle .third {
-  margin-left: 50px;
-}
 .middle .second .target {
-  margin: 0 7% 0 1%;
   vertical-align: top;
 }
 @media (max-width: 500px) {
+  section.middle {
+    margin: 0;
+  }
   section.middle .mission {
     padding-top: 20px;
+    margin: 0;
   }
   section.middle .mission h2 {
     font-size: 30px;
@@ -372,24 +379,37 @@ header nav div.links a:hover {
   section.middle .third {
     display: flex;
     flex-direction: column;
-  }
-  section.middle .first .image,
-  section.middle .second .image,
-  section.middle .third .image {
     margin: 0;
-    height: 400px;
-    width: 100vw;
+  }
+  section.middle .first .image img,
+  section.middle .second .image img,
+  section.middle .third .image img {
+    margin: 0;
+    height: 350px;
+    width: 500px;
+    border-radius: 0;
   }
   section.middle .first .target,
   section.middle .second .target,
   section.middle .third .target {
     width: 100vw;
     margin: 0;
+    border-radius: 0;
+  }
+  section.middle .first .target h3,
+  section.middle .second .target h3,
+  section.middle .third .target h3 {
+    font-size: 30px;
+  }
+  section.middle .second {
+    display: flex;
+    flex-direction: column-reverse;
   }
 }
 .last {
   background-color: #007A4D;
   height: min-content;
+  width: 100vw;
 }
 .last h2 {
   font-size: 3.5rem;
@@ -424,7 +444,7 @@ header nav div.links a:hover {
 }
 .last .main .info h3 {
   color: #070002;
-  margin: 2% auto 10%;
+  margin: 2% auto 5%;
   text-align: center;
   font-family: 'Raleway', sans-serif;
   font-size: 1.5rem;
@@ -434,6 +454,34 @@ header nav div.links a:hover {
   font-family: 'Rajdhani', sans-serif;
   font-size: 1.5rem;
   margin: 0 2%;
+}
+@media (max-width: 500px) {
+  .last {
+    margin: 0;
+  }
+  .last h2 {
+    padding-top: 40px;
+    margin: 0 auto 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .last .main {
+    flex-direction: column;
+  }
+  .last .main .info {
+    width: 480px;
+    margin: 10px;
+  }
+  .last .main .info h3 {
+    font-size: 25px;
+  }
+  .last .main .info p {
+    font-size: 20px;
+    font-weight: 700;
+  }
+}
+.footer {
+  width: 100vw;
 }
 .footer div.bttm {
   border: 1px solid black;
@@ -471,4 +519,13 @@ header nav div.links a:hover {
   height: 25px;
   width: 25px;
   background-color: lightgray;
+}
+@media (max-width: 500px) {
+  footer .bttm .bottomContent {
+    font-size: 15px;
+  }
+  footer .bttm .logo img {
+    height: 20px;
+    width: 20px;
+  }
 }

@@ -1,4 +1,6 @@
 .footer {
+    width: 100vw;
+
     div.bttm {
         border: 1px solid black;
         display: flex;
@@ -53,5 +55,24 @@
 
         }
         
+    }
+}
+
+// MOBILE STYLING BEGINS HERE!
+
+@media(max-width: 500px) {
+    footer {
+        .bttm {
+            .bottomContent {
+                font-size: 15px;
+            }
+            .logo {
+                img {
+                    height: 20px;
+                    width: 20px;
+                }
+                
+            }
+        }
     }
 }

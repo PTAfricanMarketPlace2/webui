@@ -1,6 +1,7 @@
 .last {
     background-color: #007A4D;
     height: min-content;
+    width: 100vw;
     
     h2 {
         font-size: 3.5rem;
@@ -37,7 +38,7 @@
 
             h3 {
                 color: #070002;
-                margin: 2% auto 10%;
+                margin: 2% auto 5%;
                 text-align: center;
                 font-family: 'Raleway', sans-serif;
                 font-size: 1.5rem;
@@ -47,6 +48,38 @@
                 font-family: 'Rajdhani', sans-serif;
                 font-size: 1.5rem;
                 margin: 0 2%;
+            }
+        }
+    }
+}
+
+// BEGINNING THE MOBILE VIEW FOR LAST SECTION
+
+@media(max-width: 500px) {
+    .last {
+        margin: 0;
+
+        h2 {
+            padding-top: 40px;
+            margin: 0 auto 20px;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .main {
+            flex-direction: column;
+
+            .info {
+                width: 480px;
+                margin: 10px;
+
+                h3 {
+                    font-size: 25px;
+                }
+                p {
+                    font-size: 20px;
+                    font-weight: 700;
+                }
             }
         }
     }
