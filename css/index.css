@@ -209,6 +209,7 @@ header nav div.links a:hover {
 }
 .intro .box a {
   color: #070002;
+  text-decoration: none;
 }
 .intro .box h2 {
   font-family: 'Alegreya Sans SC', sans-serif;
@@ -247,6 +248,7 @@ header nav div.links a:hover {
 .intro .box .myButton:hover {
   background: linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
   background-color: #ffab23;
+  font-weight: 750;
 }
 .intro .box .myButton:active {
   position: relative;
@@ -289,19 +291,19 @@ header nav div.links a:hover {
     width: 100%;
   }
   .intro .box {
-    width: 350px;
-    height: 200px;
+    width: 450px;
+    height: 210px;
     margin: 20px auto 0;
   }
   .intro .box h2 {
-    font-size: 25px;
+    font-size: 20px;
   }
   .intro .box p {
-    font-size: 10px;
+    font-size: 14px;
   }
   .intro .box .myButton {
     height: 39px;
-    width: 75px;
+    width: 90px;
     padding: 0;
   }
   .intro .box .myButton a {
@@ -358,7 +360,7 @@ header nav div.links a:hover {
 .middle .third .image img {
   vertical-align: top;
   height: auto;
-  width: 85%;
+  width: 90%;
   border-radius: 8px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 35, 149, 0.19);
 }
@@ -390,7 +392,7 @@ header nav div.links a:hover {
   font-size: 1.3rem;
   font-weight: 700;
   letter-spacing: 2px;
-  padding: 1%;
+  padding: 4%;
 }
 .middle .first .target p:hover,
 .middle .second .target p:hover,
@@ -538,7 +540,7 @@ header nav div.links a:hover {
   justify-content: space-around;
 }
 .last .main .info {
-  width: 30%;
+  width: 25%;
   height: min-content;
   background-color: #E3E3E3;
   border-radius: 8px;
@@ -583,7 +585,7 @@ header nav div.links a:hover {
     flex-direction: column;
   }
   .last .main .info {
-    width: 760px;
+    width: 560px;
     margin: 10px auto;
   }
   .last .main .info h3 {
