@@ -344,7 +344,7 @@ header nav div.links a:hover {
   text-align: start;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 500;
   color: #070002;
   height: min-content;
   margin: 0 10%;
@@ -388,6 +388,7 @@ header nav div.links a:hover {
 .middle .third .target h3 {
   font-family: 'Raleway', sans-serif;
   font-size: 2.5rem;
+  font-weight: 700;
   margin-bottom: 2%;
   text-decoration: underline #FFB612;
   letter-spacing: 1px;
@@ -398,7 +399,7 @@ header nav div.links a:hover {
 .middle .third .target p {
   font-family: font-family 'Rajdhani', sans-serif;
   font-size: 1.3rem;
-  font-weight: 700;
+  font-weight: 400;
   letter-spacing: 2px;
   padding: 4%;
 }
